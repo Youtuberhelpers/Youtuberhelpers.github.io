@@ -1,0 +1,31 @@
+body{
+    background-color: salmon;
+}
+
+#RealtimeClockArea2 {
+    font-size: 20px;
+}
+
+#form {
+    background-color: white;
+    width: 640px;
+    height: 500px;
+}
+.share {
+    overflow:hidden;
+    list-style:none;
+    margin: 0 auto;
+    z-index: 20;
+}
+
+.icon {
+    display: inline-block;
+    padding: 26px 10px 20px 10px;
+}
+
+.my-skyblue {
+    color: skyblue;
+}
+.my-lightgreen {
+    color: lightgreen;
+}

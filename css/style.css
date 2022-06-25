@@ -1,0 +1,13 @@
+body{
+    background-color: salmon;
+}
+
+#RealtimeClockArea2 {
+    font-size: 20px;
+}
+
+#form {
+    background-color: white;
+    width: 640px;
+    height: 500px;
+}

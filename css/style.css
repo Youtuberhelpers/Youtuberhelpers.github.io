@@ -9,7 +9,7 @@ body{
 #form {
     background-color: white;
     width: 640px;
-    height: 500px;
+    height: 570px;
 }
 .share {
     overflow:hidden;
@@ -18,7 +18,7 @@ body{
     z-index: 20;
 }
 
-.icon {
+.inline {
     display: inline-block;
     padding: 26px 10px 20px 10px;
 }
@@ -26,6 +26,50 @@ body{
 .my-skyblue {
     color: skyblue;
 }
+.my-red {
+    color: red;
+}
 .my-lightgreen {
     color: lightgreen;
+}
+
+.Cimg{
+    margin:auto;
+    display: block;
+}
+
+.example{
+    overflow: auto;
+    width: 50%;
+    height: 280px;
+}
+.example table{
+    margin: 0;
+    border-spacing: 0;
+
+}
+.example td{
+    white-space: nowrap;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    background: #FFF;
+    padding: 0px;
+}
+.example th{
+    white-space: nowrap;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    background: #f2f2f2;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.example tr:first-child th{
+    border-top: 1px solid #999;
+}
+.example th:first-child{
+    border-left: 1px solid #999;
+}
+.example tr:first-child th:first-child{
+    z-index: 0;
 }

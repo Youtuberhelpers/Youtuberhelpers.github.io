@@ -36,6 +36,7 @@ body{
 .Cimg{
     margin:auto;
     display: block;
+    text-align: center;
 }
 
 .example{

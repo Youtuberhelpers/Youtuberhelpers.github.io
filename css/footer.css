@@ -4,9 +4,14 @@
     text-align: center;
 }
 
-.foot-wrap .menu-left, .menu-center, .menu-right {
+.foot-wrap .menu-left, .menu-right {
     display: inline-block;
     width: 20%;
+    margin: 50px auto;
+}
+.menu-center {
+    display: inline-block;
+    width: 30%;
     margin: 50px auto;
 }
 

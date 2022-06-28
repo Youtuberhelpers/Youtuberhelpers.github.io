@@ -6,11 +6,12 @@ body{
     font-size: 20px;
 }
 
-#form {
+#form , #Calendar {
     background-color: white;
-    width: 640px;
+    width: 500px;
     height: 570px;
 }
+
 .share {
     overflow:hidden;
     list-style:none;
@@ -25,6 +26,9 @@ body{
 
 .my-skyblue {
     color: skyblue;
+}
+.my-blue {
+    color: rgb(44, 44, 255);
 }
 .my-red {
     color: red;

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xml:lang="ja">
+  <channel rdf:about="https://youtuberhelpers.github.io/index.xml/index.xml">
+    <title>Youtuber応援隊</title>
+    <link>https://youtuberhelpers.github.io/</link>
+    <dc:date>2022-06-29T16:20:10+09:00</dc:date>
+    <description>「Youtuber応援隊になりたい!!!」や「配信してみたい」を全力で応援します</description>
+    <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
+    <image rdf:resource="https://youtuberhelpers.github.io/img/icon.png"/>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="https://youtuberhelpers.github.io/#he20220629"/>
+        <rdf:li rdf:resource="https://youtuberhelpers.github.io/blog/webmake#he20220628"/>
+        <rdf:li rdf:resource="https://youtuberhelpers.github.io/blog/#he20220628"/>
+        <rdf:li rdf:resource="https://youtuberhelpers.github.io/#he20220626"/>
+        <rdf:li rdf:resource="https://youtuberhelpers.github.io/#he20220625"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+  <image rdf:about="https://youtuberhelpers.github.io/img/icon.png">
+    <title>Youtuber応援隊</title>
+    <link>https://youtuberhelpers.github.io/</link>
+    <url>https://youtuberhelpers.github.io/img/icon.png</url>
+  </image>
+  <item rdf:about="https://youtuberhelpers.github.io/#he20220629">
+    <title>RSSフィード追加</title>
+    <link>https://youtuberhelpers.github.io/</link>
+    <dc:date>2022-06-29</dc:date>
+    <description>RSSフィードを追加しました</description>
+  </item>
+
+  <item rdf:about="https://youtuberhelpers.github.io/blog/webmake#he20220628">
+    <title>最初の記事を投稿</title>
+    <link>https://youtuberhelpers.github.io/blog/webmake</link>
+    <dc:date>2022-06-28</dc:date>
+    <description>最初の記事:Webページの作り方~tagについて~ 投稿しました</description>
+  </item>
+
+  <item rdf:about="https://youtuberhelpers.github.io/blog/#he20220628">
+    <title>ブログを開始</title>
+    <link>https://youtuberhelpers.github.io/blog/</link>
+    <dc:date>2022-06-28</dc:date>
+    <description>ブログをはじめました</description>
+  </item>
+
+  <item rdf:about="https://youtuberhelpers.github.io/#he20220626">
+    <title>アマゾンアソシエイトで広告を入れる</title>
+    <link>https://youtuberhelpers.github.io/</link>
+    <dc:date>2022-06-26</dc:date>
+    <description>広告が入りました</description>
+  </item>
+
+  <item rdf:about="https://youtuberhelpers.github.io/#he20220625">
+    <title>サービス開始!!!!!</title>
+    <link>https://youtuberhelpers.github.io/</link>
+    <dc:date>2022-06-25</dc:date>
+    <description>サービスを始めました</description>
+  </item>
+
+</rdf:RDF>

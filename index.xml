@@ -8,12 +8,13 @@
   <channel rdf:about="https://youtuberhelpers.github.io/index.xml/index.xml">
     <title>Youtuber応援隊</title>
     <link>https://youtuberhelpers.github.io/</link>
-    <dc:date>2022-06-29T16:20:10+09:00</dc:date>
+    <dc:date>2022-06-29T18:44:05+09:00</dc:date>
     <description>「Youtuber応援隊になりたい!!!」や「配信してみたい」を全力で応援します</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
-    <image rdf:resource="https://youtuberhelpers.github.io/img/icon.png"/>
+    <image rdf:resource="https://youtuberhelpers.github.io/icon.png"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://youtuberhelpers.github.io/blog/atag#he20220629"/>
         <rdf:li rdf:resource="https://youtuberhelpers.github.io/#he20220629"/>
         <rdf:li rdf:resource="https://youtuberhelpers.github.io/blog/webmake#he20220628"/>
         <rdf:li rdf:resource="https://youtuberhelpers.github.io/blog/#he20220628"/>
@@ -22,13 +23,20 @@
       </rdf:Seq>
     </items>
   </channel>
-  <image rdf:about="https://youtuberhelpers.github.io/img/icon.png">
+  <image rdf:about="https://youtuberhelpers.github.io/icon.png">
     <title>Youtuber応援隊</title>
     <link>https://youtuberhelpers.github.io/</link>
-    <url>https://youtuberhelpers.github.io/img/icon.png</url>
+    <url>https://youtuberhelpers.github.io/icon.png</url>
   </image>
+  <item rdf:about="https://youtuberhelpers.github.io/blog/atag#he20220629">
+    <title>2個目の記事を投稿</title>
+    <link>https://youtuberhelpers.github.io/blog/atag</link>
+    <dc:date>2022-06-29</dc:date>
+    <description>aタグについて を投稿しました</description>
+  </item>
+
   <item rdf:about="https://youtuberhelpers.github.io/#he20220629">
-    <title>RSSフィード追加</title>
+    <title>RSSフィードを追加しました</title>
     <link>https://youtuberhelpers.github.io/</link>
     <dc:date>2022-06-29</dc:date>
     <description>RSSフィードを追加しました</description>
@@ -45,7 +53,7 @@
     <title>ブログを開始</title>
     <link>https://youtuberhelpers.github.io/blog/</link>
     <dc:date>2022-06-28</dc:date>
-    <description>ブログをはじめました</description>
+    <description>ブログを始めました</description>
   </item>
 
   <item rdf:about="https://youtuberhelpers.github.io/#he20220626">

@@ -44,6 +44,7 @@
     color: gray;
 }
 
+/*タブレット*/
 @media screen and (max-width: 900px) {
     .foot-wrap .menu-left, .menu-center, .menu-right {
         display: flex;
@@ -52,5 +53,105 @@
     }
     .foot-wrap .cpr {
         display: inline;
+    }
+}
+@media screen and (max-width: 959px) {
+	.foot-wrap {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .foot-wrap .menu-left, .menu-right {
+        display: inline-block;
+        width: 20%;
+        margin: 50px auto;
+    }
+    .menu-center {
+        display: inline-block;
+        width: 32%;
+        margin: 50px auto;
+    }
+    
+    .foot-wrap ul {
+        list-style: none;
+        padding: 0;
+        line-height: 40px;
+    }
+    
+    .foot-wrap h3 {
+        border-bottom: 3px solid #2ac5b3;
+        padding: 10px;
+    }
+    
+    .foot-wrap a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .foot-wrap a:hover {
+        color: #3367ff;
+    }
+    
+    .foot-wrap .cmark {
+        display: block;
+        padding: 10px;
+        border-top: 1px solid gray;
+        width: 80%;
+        margin: 0 auto;
+        color: gray;
+    }
+}
+
+/*スマホ*/
+@media screen and (max-width: 480px) {
+	.foot-wrap {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .foot-wrap .menu-left, .menu-right {
+        font-size: 3px;
+        display: inline-block;
+        width: 20%;
+        margin: 50px auto;
+    }
+    .menu-center {
+        font-size: 5px;
+        display: inline-block;
+        width: 32%;
+        margin: 50px auto;
+    }
+    
+    .foot-wrap ul {
+        list-style: none;
+        padding: 0;
+        line-height:40px;
+    }
+    
+    .foot-wrap h3 {
+        border-bottom: 3px solid #2ac5b3;
+        padding: 10px;
+    }
+    
+    .foot-wrap a {
+        font-size: 1px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .foot-wrap a:hover {
+        color: #3367ff;
+    }
+    
+    .foot-wrap .cmark {
+        display: block;
+        padding: 10px;
+        border-top: 1px solid gray;
+        width: 80%;
+        margin: 0 auto;
+        color: gray;
     }
 }

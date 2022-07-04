@@ -5,53 +5,53 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:admin="http://webns.net/mvcb/"
   xml:lang="ja">
-  <channel rdf:about="https://youtuberhelpers.github.io/index.xml/index.xml">
+  <channel rdf:about="https://youtuberhelpers.github.io/index.xml">
     <title>Youtuber応援隊</title>
     <link>https://youtuberhelpers.github.io/</link>
-    <dc:date>2022-06-29T18:44:05+09:00</dc:date>
+    <dc:date>2022-07-04T21:28:46+09:00</dc:date>
     <description>「Youtuber応援隊になりたい!!!」や「配信してみたい」を全力で応援します</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
-    <image rdf:resource="https://youtuberhelpers.github.io/icon.png"/>
+    <image rdf:resource="https://youtuberhelpers.github.io/img/icon.png"/>
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="https://youtuberhelpers.github.io/blog/atag#he20220629"/>
-        <rdf:li rdf:resource="https://youtuberhelpers.github.io/#he20220629"/>
-        <rdf:li rdf:resource="https://youtuberhelpers.github.io/blog/webmake#he20220628"/>
-        <rdf:li rdf:resource="https://youtuberhelpers.github.io/blog/#he20220628"/>
+        <rdf:li rdf:resource="https://youtuberhelpers.github.io/#he20220704"/>
+        <rdf:li rdf:resource="https://youtuberhelpers.github.io/atag#he20220629"/>
+        <rdf:li rdf:resource="https://youtuberhelpers.github.io/webmake#he20220628"/>
+        <rdf:li rdf:resource="https://youtuberhelpers.github.io/blog#he20220628"/>
         <rdf:li rdf:resource="https://youtuberhelpers.github.io/#he20220626"/>
         <rdf:li rdf:resource="https://youtuberhelpers.github.io/#he20220625"/>
       </rdf:Seq>
     </items>
   </channel>
-  <image rdf:about="https://youtuberhelpers.github.io/icon.png">
+  <image rdf:about="https://youtuberhelpers.github.io/img/icon.png">
     <title>Youtuber応援隊</title>
     <link>https://youtuberhelpers.github.io/</link>
-    <url>https://youtuberhelpers.github.io/icon.png</url>
+    <url>https://youtuberhelpers.github.io/img/icon.png</url>
   </image>
-  <item rdf:about="https://youtuberhelpers.github.io/blog/atag#he20220629">
+  <item rdf:about="https://youtuberhelpers.github.io/#he20220704">
+    <title>フッターとヘッダーをスマホ、タブレット向けに改良</title>
+    <link>https://youtuberhelpers.github.io/</link>
+    <dc:date>2022-07-04</dc:date>
+    <description>もう脳みそパンクしそう...</description>
+  </item>
+
+  <item rdf:about="https://youtuberhelpers.github.io/atag#he20220629">
     <title>2個目の記事を投稿</title>
-    <link>https://youtuberhelpers.github.io/blog/atag</link>
+    <link>https://youtuberhelpers.github.io/atag</link>
     <dc:date>2022-06-29</dc:date>
     <description>aタグについて を投稿しました</description>
   </item>
 
-  <item rdf:about="https://youtuberhelpers.github.io/#he20220629">
-    <title>RSSフィードを追加しました</title>
-    <link>https://youtuberhelpers.github.io/</link>
-    <dc:date>2022-06-29</dc:date>
-    <description>RSSフィードを追加しました</description>
-  </item>
-
-  <item rdf:about="https://youtuberhelpers.github.io/blog/webmake#he20220628">
+  <item rdf:about="https://youtuberhelpers.github.io/webmake#he20220628">
     <title>最初の記事を投稿</title>
-    <link>https://youtuberhelpers.github.io/blog/webmake</link>
+    <link>https://youtuberhelpers.github.io/webmake</link>
     <dc:date>2022-06-28</dc:date>
     <description>最初の記事:Webページの作り方~tagについて~ 投稿しました</description>
   </item>
 
-  <item rdf:about="https://youtuberhelpers.github.io/blog/#he20220628">
+  <item rdf:about="https://youtuberhelpers.github.io/blog#he20220628">
     <title>ブログを開始</title>
-    <link>https://youtuberhelpers.github.io/blog/</link>
+    <link>https://youtuberhelpers.github.io/blog</link>
     <dc:date>2022-06-28</dc:date>
     <description>ブログを始めました</description>
   </item>

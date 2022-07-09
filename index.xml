@@ -8,12 +8,13 @@
   <channel rdf:about="https://youtuberhelpers.github.io/index.xml">
     <title>Youtuber応援隊</title>
     <link>https://youtuberhelpers.github.io/</link>
-    <dc:date>2022-07-04T21:28:46+09:00</dc:date>
+    <dc:date>2022-07-09T12:58:34+09:00</dc:date>
     <description>「Youtuber応援隊になりたい!!!」や「配信してみたい」を全力で応援します</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://youtuberhelpers.github.io/img/icon.png"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://youtuberhelpers.github.io/#he20220709"/>
         <rdf:li rdf:resource="https://youtuberhelpers.github.io/#he20220704"/>
         <rdf:li rdf:resource="https://youtuberhelpers.github.io/atag#he20220629"/>
         <rdf:li rdf:resource="https://youtuberhelpers.github.io/webmake#he20220628"/>
@@ -28,6 +29,13 @@
     <link>https://youtuberhelpers.github.io/</link>
     <url>https://youtuberhelpers.github.io/img/icon.png</url>
   </image>
+  <item rdf:about="https://youtuberhelpers.github.io/#he20220709">
+    <title>フッターとヘッダーを自分のカスタムしやすいように変更</title>
+    <link>https://youtuberhelpers.github.io/</link>
+    <dc:date>2022-07-09</dc:date>
+    <description>すっごい楽になった</description>
+  </item>
+
   <item rdf:about="https://youtuberhelpers.github.io/#he20220704">
     <title>フッターとヘッダーをスマホ、タブレット向けに改良</title>
     <link>https://youtuberhelpers.github.io/</link>

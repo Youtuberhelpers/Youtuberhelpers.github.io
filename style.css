@@ -1,0 +1,260 @@
+body{
+    background-color: salmon;
+}
+
+#RealtimeClockArea2 {
+    font-size: 20px;
+}
+
+#form , #Calendar {
+    background-color: white;
+    width: 500px;
+    height: 570px;
+}
+
+.share {
+    overflow:hidden;
+    list-style:none;
+    margin: 0 auto;
+    z-index: 20;
+}
+
+.inline {
+    display: inline-block;
+    padding: 26px 10px 20px 10px;
+}
+
+.my-skyblue {
+    color: skyblue;
+}
+.my-blue {
+    color: rgb(44, 44, 255);
+}
+.my-red {
+    color: red;
+}
+.my-lightgreen {
+    color: lightgreen;
+}
+.my-orange {
+    color: orange;
+}
+.my-purple {
+    color: purple;
+}
+
+.Cimg{
+    margin:auto;
+    display: block;
+    text-align: center;
+}
+
+.example{
+    overflow: auto;
+    width: 50%;
+    height: 280px;
+}
+.example table{
+    margin: 0;
+    border-spacing: 0;
+
+}
+.example td{
+    white-space: nowrap;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    background: #FFF;
+    padding: 0px;
+}
+.example th{
+    white-space: nowrap;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    background: #f2f2f2;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.example tr:first-child th{
+    border-top: 1px solid #999;
+}
+.example th:first-child{
+    border-left: 1px solid #999;
+}
+.example tr:first-child th:first-child{
+    z-index: 0;
+}
+
+/*スマホ用*/
+@media screen and (max-width: 480px) {
+	body{
+        background-color: salmon;
+    }
+    
+    #RealtimeClockArea2 {
+        font-size: 20px;
+    }
+    
+    #form , #Calendar {
+        background-color: white;
+        width: 500px;
+        height: 570px;
+    }
+    
+    .share {
+        overflow:hidden;
+        list-style:none;
+        margin: 0 auto;
+        z-index: 20;
+    }
+    
+    .inline {
+        display: inline-block;
+        padding: 26px 10px 20px 10px;
+    }
+    
+    .my-skyblue {
+        color: skyblue;
+    }
+    .my-blue {
+        color: rgb(44, 44, 255);
+    }
+    .my-red {
+        color: red;
+    }
+    .my-lightgreen {
+        color: lightgreen;
+    }
+    .my-orange {
+        color: orange;
+    }
+    
+    .Cimg{
+        margin:auto;
+        display: block;
+        text-align: center;
+    }
+    
+    .example{
+        overflow: auto;
+        width: 50%;
+        height: 280px;
+    }
+    .example table{
+        margin: 0;
+        border-spacing: 0;
+    
+    }
+    .example td{
+        white-space: nowrap;
+        border-right: 1px solid #999;
+        border-bottom: 1px solid #999;
+        background: #FFF;
+        padding: 0px;
+    }
+    .example th{
+        white-space: nowrap;
+        border-right: 1px solid #999;
+        border-bottom: 1px solid #999;
+        background: #f2f2f2;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    .example tr:first-child th{
+        border-top: 1px solid #999;
+    }
+    .example th:first-child{
+        border-left: 1px solid #999;
+    }
+    .example tr:first-child th:first-child{
+        z-index: 0;
+    }
+}
+
+/*タブレット用*/
+@media screen and (max-width: 959px) {
+	body{
+        background-color: salmon;
+    }
+    
+    #RealtimeClockArea2 {
+        font-size: 20px;
+    }
+    
+    #form , #Calendar {
+        background-color: white;
+        width: 500px;
+        height: 570px;
+    }
+    
+    .share {
+        overflow:hidden;
+        list-style:none;
+        margin: 0 auto;
+        z-index: 20;
+    }
+    
+    .inline {
+        display: inline-block;
+        padding: 26px 10px 20px 10px;
+    }
+    
+    .my-skyblue {
+        color: skyblue;
+    }
+    .my-blue {
+        color: rgb(44, 44, 255);
+    }
+    .my-red {
+        color: red;
+    }
+    .my-lightgreen {
+        color: lightgreen;
+    }
+    .my-orange {
+        color: orange;
+    }
+    
+    .Cimg{
+        margin:auto;
+        display: block;
+        text-align: center;
+    }
+    
+    .example{
+        overflow: auto;
+        width: 50%;
+        height: 280px;
+    }
+    .example table{
+        margin: 0;
+        border-spacing: 0;
+    
+    }
+    .example td{
+        white-space: nowrap;
+        border-right: 1px solid #999;
+        border-bottom: 1px solid #999;
+        background: #FFF;
+        padding: 0px;
+    }
+    .example th{
+        white-space: nowrap;
+        border-right: 1px solid #999;
+        border-bottom: 1px solid #999;
+        background: #f2f2f2;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    .example tr:first-child th{
+        border-top: 1px solid #999;
+    }
+    .example th:first-child{
+        border-left: 1px solid #999;
+    }
+    .example tr:first-child th:first-child{
+        z-index: 0;
+    }
+}
